@@ -1,4 +1,4 @@
-/* Small content/accessibility additions; styles.css is the original reference stylesheet. */
+/* AI-SimCenter content/layout additions. The reference stylesheet is unchanged. */
 .skip-link{position:fixed;top:-100px;left:1rem;z-index:1001;background:white;padding:.75rem 1rem}
 .skip-link:focus{top:1rem}
 .skip-link:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden;white-space:nowrap;padding:0}
@@ -7,4 +7,22 @@ a:focus-visible,button:focus-visible{outline:3px solid #2563eb;outline-offset:4p
 .overview-university{color:#3273dc;font-weight:600;text-decoration:underline}
 .portrait-link{display:block}
 .image img.fitted-portrait{width:128px;height:128px;object-fit:cover;object-position:center 30%}
+
+/* Keep complete rows and partial rows centered, with equal cards in each group. */
+#team > .container.is-fluid{padding-left:0;padding-right:0}
+#team .pi-grid{max-width:728px}
+#team .researchers-grid{max-width:952px}
+#team .team-box{height:100%}
+#team .team-box figure{flex:none}
+#team .team-box figure img{display:block;width:128px;height:128px;object-fit:cover;border-radius:50%}
+#team .team-box .title{display:flex;align-items:center;justify-content:center;min-height:2.6em;width:100%}
+#team .researchers-grid .team-box .subtitle{min-height:2.8em;width:100%}
+
+/* Restored project content uses the same typography, boxes, and colors. */
+.research-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}
+.research-item.box{display:flex;flex-direction:column;margin:0;padding:1.5rem}
+.research-item .title{line-height:1.3;margin-bottom:1rem}
+.research-item p{color:var(--text-secondary);line-height:1.8}
+.research-item .research-tag{margin-top:auto;padding-top:1rem;color:var(--primary-color);font-size:.875rem;font-weight:600}
+@media(max-width:600px){.research-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero,.section{animation:none}*{transition:none!important}}
