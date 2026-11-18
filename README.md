@@ -2,7 +2,7 @@
 
 AI for simulation-based medical education at VinUniversity.
 
-**Website:** https://seeker38.github.io/ai-simcenter/
+**Website:** https://vinuni-ai-simcenter.github.io/
 
 This is a static research project website. GitHub Pages serves the root of the `main` branch. No build step, server, API key, or paid service is required.
 
@@ -18,3 +18,8 @@ Nguyen Bao Linh and Nguyen Quynh Tram use neutral placeholders until photos are 
 For local preview, run `python -m http.server 4173`, then open http://localhost:4173.
 
 GitHub Pages currently provides free hosting for public repositories, subject to GitHub's terms and service availability. No permanent free-hosting guarantee is implied.
+
+
+Repository: https://github.com/vinuni-ai-simcenter/vinuni-ai-simcenter.github.io
+
+The project account hosts this as its GitHub Pages site. Update the root of `main` to publish changes.
