@@ -23,3 +23,7 @@ GitHub Pages currently provides free hosting for public repositories, subject to
 Repository: https://github.com/vinuni-ai-simcenter/vinuni-ai-simcenter.github.io
 
 The project account hosts this as its GitHub Pages site. Update the root of `main` to publish changes.
+
+## Updating from VS Code
+
+Open this repository folder in VS Code, edit the page or assets, then use Source Control to stage and commit the changes. Select **Sync Changes** to push `main`; GitHub Pages publishes the update automatically. Git Credential Manager is configured locally to use the `vinuni-ai-simcenter` account for this checkout.
