@@ -1,0 +1,10 @@
+/* Small content/accessibility additions; styles.css is the original reference stylesheet. */
+.skip-link{position:fixed;top:-100px;left:1rem;z-index:1001;background:white;padding:.75rem 1rem}
+.skip-link:focus{top:1rem}
+.skip-link:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden;white-space:nowrap;padding:0}
+a:focus-visible,button:focus-visible{outline:3px solid #2563eb;outline-offset:4px}
+.publication-links .icon img{width:1em;height:1em;filter:brightness(0) invert(1)}
+.overview-university{color:#3273dc;font-weight:600;text-decoration:underline}
+.portrait-link{display:block}
+.image img.fitted-portrait{width:128px;height:128px;object-fit:cover;object-position:center 30%}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero,.section{animation:none}*{transition:none!important}}

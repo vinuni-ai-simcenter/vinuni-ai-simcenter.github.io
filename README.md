@@ -9,11 +9,16 @@ This is a static research project website. GitHub Pages serves the root of the `
 ## Editing
 
 - `index.html`: project content, team roster, and profile links.
-- `styles.css`: colors and responsive layout.
+- `styles.css`: the original medical project template stylesheet, preserved unchanged.
+- `site.css`: small accessibility and portrait sizing additions.
+- `static/css/bulma.min.css`: the same Bulma 0.9.1 framework used by the reference.
+- `assets/css/fonts.css` and `assets/fonts/`: locally hosted Inter typography.
 - `script.js`: back-to-top interaction.
 - `assets/`: portraits, university branding, and neutral avatar placeholders.
 
-Nguyen Quynh Tram uses a neutral placeholder until a photo is available. Nguyen Bao Linh, My Anh Tran Nguyen, and Nguyen Hoang Long use photos supplied by the project owner. Existing matching portraits and university branding come from the [VinUni Medical Translation project](https://vinuni-medical-mt.github.io/), whose visual design inspired this site. Website code is newly written.
+Nguyen Quynh Tram uses a neutral placeholder until a photo is available. Nguyen Bao Linh, My Anh Tran Nguyen, and Nguyen Hoang Long use photos supplied by the project owner. Existing matching portraits and university branding come from the [VinUni Medical Translation project](https://vinuni-medical-mt.github.io/).
+
+The page uses that site's actual template structure, Bulma version, stylesheet, team cards, headings, and typography, with AI-SimCenter's project content and roster substituted. See [NOTICE.md](NOTICE.md) for template attribution and third-party licenses.
 
 For local preview, run `python -m http.server 4173`, then open http://localhost:4173.
 
